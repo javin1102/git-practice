@@ -1,0 +1,33 @@
+git add <nama file> (.) -> staging area
+git commit -m "<summary>" -> commit
+git clone <link>
+git remote add origin <link> -> add remote
+git push -u origin <branch> -> push ke remote branch
+git branch <nama branch> -> buat branch local
+git checkout <nama branch> -> pindah ke branch local
+
+git fetch origin <branch> -> download dari remote
+git merge <nama branch> -> merge dari remote atau lokal
+
+
+git pull origin <branch> -> tarik dan merge ke workspace lokal
+
+
+
+
+
+
+
+Push Tag
+
+To push particular tag you can use below command:
+
+git push origin v1.0.3
+Or if you want to push all tags then use the below command:
+
+git push --tags
+List all tags:
+
+To list all tags, use the following command.
+
+git tag
